@@ -1,0 +1,158 @@
+body {
+  background-image: url(../images/imagenheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  body .fondoGris {
+    background-color: rgba(89, 89, 89, 0.5); }
+  body header nav {
+    background-color: rgba(0, 69, 107, 0.76); }
+  body header .header__titulo--posicion {
+    padding-top: 7vw;
+    padding-bottom: 7vw; }
+  body header .header__titulo--estiloTexto {
+    color: #1aba5d;
+    font-size: 80px;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 3px; }
+  body header .header__menu__link--efecto:hover {
+    background-color: rgba(148, 155, 2, 0.58);
+    transition: background-color 1s ease; }
+  body #imagenIndex {
+    height: 60%;
+    width: 70%; }
+  body .paginaPrincipal__sobreMi__titulo--estilo {
+    margin-top: .5rem;
+    font-size: 40px;
+    color: #e0cf5e;
+    text-align: center; }
+  body .paginaPrincipal__sobreMi__texto--estilo {
+    font-size: 17px;
+    color: #c7b854;
+    text-align: center; }
+  body .paginaPrincipal__sobreMi {
+    background-color: rgba(0, 69, 107, 0.76);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  body .estadisticas__ligaActual__liga {
+    display: flex;
+    justify-content: center; }
+  body .estadisticas__ligaActual__datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  body .estadisticas__ligaActual__datos h4 {
+    color: #c7b854;
+    font-size: 3rem; }
+  body .estadisticas__ligaActual__datos strong small {
+    color: #bbbdbf;
+    font-size: 2rem; }
+  body .estadisticas__ligaAnterior__liga {
+    display: flex;
+    justify-content: center; }
+  body .estadisticas__ligaAnterior__datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  body .estadisticas__ligaAnterior__datos h4 {
+    color: #c7b854;
+    font-size: 3rem; }
+  body .estadisticas__ligaAnterior__datos strong small {
+    color: #bbbdbf;
+    font-size: 2rem; }
+  body .estadisticas__ligaActual {
+    background-color: rgba(0, 69, 107, 0.76); }
+  body .estadisticas__ligaAnterior {
+    background-color: rgba(0, 69, 107, 0.76); }
+  body .campeonesUtilizados__titulo {
+    background-color: rgba(0, 69, 107, 0.76);
+    color: #c7b854;
+    font-size: 80px; }
+  body .campeonesUtilizados__campeonDestacado__datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  body .campeonesUtilizados__campeonDestacado__datos h4 {
+    color: #ffa200;
+    font-size: 3rem; }
+  body .campeonesUtilizados__campeonDestacado__datos strong small {
+    text-align: center;
+    color: #ffa200;
+    font-size: 2rem; }
+  body .tituloGrafico b {
+    color: #fd7e14; }
+  body .tituloGrafico strong {
+    color: #17a2b8; }
+  body .highlight {
+    background-color: rgba(0, 69, 107, 0.76);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  body .highlight__titulo {
+    font-size: 40px;
+    color: #c7b854; }
+  body .highlight__descripcion {
+    text-align: center;
+    font-size: 20px;
+    color: #c7b854; }
+  body .highlight__video iframe {
+    height: 400px; }
+  body .notasDeParche__titulo {
+    color: #ffa200;
+    font-size: 80px;
+    background-color: rgba(0, 69, 107, 0.76); }
+  body .notasDeParche__campeon__cambios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 69, 107, 0.76); }
+  body .notasDeParche__campeon__cambios h4 {
+    text-align: center;
+    color: #ffa200; }
+  body .notasDeParche__nuevosAspectos__titulo {
+    font-size: 40px;
+    color: #ffa200; }
+  body .notasDeParche__item__cambios {
+    background-color: rgba(0, 69, 107, 0.76);
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  body .notasDeParche__item__cambios h4, body strong {
+    text-align: center;
+    color: #ffa200;
+    font-size: 1.5rem; }
+  body .notasDeParche__item__cambios strong small {
+    color: rgba(255, 162, 0, 0.5); }
+  body .notasDeParche__tituloCambiosEnItems {
+    color: #ffa200;
+    font-size: 60px;
+    background-color: rgba(0, 69, 107, 0.76); }
+  body .notasDeParche__campeon__cambios p {
+    color: white;
+    text-align: left; }
+  body .contacto_formulario-estilo {
+    color: #d3d694; }
+    body .contacto_formulario-estilo fieldset {
+      background-color: rgba(0, 69, 107, 0.76); }
+  body footer {
+    background-color: rgba(0, 69, 107, 0.76); }
+    body footer div div #logoFooter {
+      border-radius: 151px; }
+    body footer .footer__paginasDeInteres ul {
+      list-style: none;
+      padding: 0; }
+    body footer .footer__redesSociales ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around; }
+    body footer .footer__paginasDeInteres ul li a {
+      color: #c7b854;
+      text-decoration: none; }
+    body footer .footer__paginasDeInteres {
+      font-size: 38px;
+      text-align: center; }
